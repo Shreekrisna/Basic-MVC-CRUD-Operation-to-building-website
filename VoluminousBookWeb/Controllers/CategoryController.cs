@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using VoluminousBookWeb.Data;
-using VoluminousBookWeb.Models;
+using VoluminousBook.DataAccess;
+using VoluminousBook.Models;
 
 namespace VoluminousBookWeb.Controllers
 {

@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\bin\Debug\net6.0\VoluminousBook.Utility.deps.json
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\bin\Debug\net6.0\VoluminousBook.Utility.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\bin\Debug\net6.0\VoluminousBook.Utility.pdb
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\refint\VoluminousBook.Utility.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\VoluminousBook.Utility.pdb
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.Utility\obj\Debug\net6.0\ref\VoluminousBook.Utility.dll

@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\bin\Debug\net6.0\VoluminousBook.DataAccess.deps.json
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\bin\Debug\net6.0\VoluminousBook.DataAccess.runtimeconfig.json
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\bin\Debug\net6.0\VoluminousBook.DataAccess.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\bin\Debug\net6.0\VoluminousBook.DataAccess.pdb
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\bin\Debug\net6.0\VoluminousBook.Models.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\bin\Debug\net6.0\VoluminousBook.Models.pdb
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\refint\VoluminousBook.DataAccess.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.pdb
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\VoluminousBook.DataAccess.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBook.DataAccess\obj\Debug\net6.0\ref\VoluminousBook.DataAccess.dll

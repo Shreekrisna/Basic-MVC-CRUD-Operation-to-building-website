@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using VoluminousBookWeb.Models;
+using VoluminousBook.Models;
 
 namespace VoluminousBookWeb.Controllers
 {
