@@ -1,0 +1,35 @@
+﻿@model Category
+
+<form method="post"asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">    @* padding ,margin top,padding bottom,margin bottom*@
+        <div class="row pb-2">
+          <h2 class="text-primary">Delete CoverType</h2> 
+          <hr />
+          @*<div asp-validation-summary="All"></div>*@
+          <div class="mb-3">
+              <label asp-for="Name"></label>
+              <input asp-for="Name" class="form-control"/>
+              <span asp-validation-for="Name" disabled class="text-danger"></span>
+          </div>
+           <div class="mb-3">
+              <label asp-for="DisplayOrder"></label>
+              <input asp-for="DisplayOrder" class="form-control"/>
+              <span asp-validation-for="DisplayOrder" disbaled class="text-danger"></span>
+          </div>
+          
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px">Delete</button> 
+        <a asp-controller="Category" asp-action="index" class="btn btn-secondary" style="width:150px">
+            Back To List
+        </a>
+    </div>
+</form>
+ @*client-side validation*@
+ @section Scripts{
+     @{
+    <partial name="_ValidationScriptsPartial" />
+     }
+ }
+
+
