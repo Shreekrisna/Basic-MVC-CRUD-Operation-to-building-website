@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using VoluminousBook.DataAccess;
 using VoluminousBook.DataAccess.Repository.IRepository;
 using VoluminousBook.Models;
@@ -20,48 +21,42 @@ namespace VoluminousBookWeb.Areas.Admin.Controllers
             IEnumerable<CoverType> objCoverTypeList = _unitOfWork.CoverType.GetAll();
             return View(objCoverTypeList);
         }
-        //GET
-        public IActionResult Create()
-        {
-
-            return View();
-        }
-        //POST
-        [HttpPost]
-        [ValidateAntiForgeryToken] //help and prevent from crosssite request forgery attack
-        public IActionResult Create(CoverType obj)
-        {
-            
-            if (ModelState.IsValid)
-            {
-                _unitOfWork.CoverType.Add(obj);
-                _unitOfWork.Save();
-                TempData["success"] = "CoverType Created Successfully";
-                return RedirectToAction("Index");
-            }
-            return View(obj);
-        }
+        
 
         //GET
-        public IActionResult Edit(int? id)
+        public IActionResult Upsert(int? id)
         {
+            Product product = new Product();
+            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(
+                u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+            IEnumerable<SelectListItem> CoverTypeList = _unitOfWork.CoverType.GetAll().Select(
+                u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
             if (id == null || id == 0)
             {
-                return NotFound();
+                //Create Product
+                ViewBag.CategoryList = CategoryList;
+                ViewData["CoverTypeList"] = CoverTypeList;
+                return View(product);
             }
-            // var categoryFromDb = _db.Categories.Find(id);
-            var coverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
-            //var categoryFromDbSingle = _db.Categories.SingleOrDefault(u => u.Id == id);
-            if (coverTypeFromDbFirst == null)
+            else
             {
-                return NotFound();
+                //Update Product
             }
-            return View(coverTypeFromDbFirst);
+           
+            return View(product);
         }
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken] //help and prevent from crosssite request forgery attack
-        public IActionResult Edit(CoverType obj)
+        public IActionResult Upsert(CoverType obj)
         {
           
             if (ModelState.IsValid)
