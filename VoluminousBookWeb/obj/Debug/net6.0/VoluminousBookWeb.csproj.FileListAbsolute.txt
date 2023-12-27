@@ -264,3 +264,6 @@ C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\bin\Debug\net6.0\v
 C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
 C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
 C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Lenovo\source\repos\VoluminousBook\VoluminousBookWeb\obj\Debug\net6.0\VoluminousBookWeb.MvcApplicationPartsAssemblyInfo.cs
