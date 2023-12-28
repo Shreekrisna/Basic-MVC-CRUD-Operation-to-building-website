@@ -58,12 +58,12 @@ namespace VoluminousBookWeb.Areas.Admin.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken] //help and prevent from crosssite request forgery attack
-        public IActionResult Upsert(CoverType obj)
+        public IActionResult Upsert(ProductVM obj,IFormFile file)
         {
           
             if (ModelState.IsValid)
             {
-                _unitOfWork.CoverType.Update(obj);
+               // _unitOfWork.CoverType.Update(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "CoverType Updated Successfully";
                 return RedirectToAction("Index");
