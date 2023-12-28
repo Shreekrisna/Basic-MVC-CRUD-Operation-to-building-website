@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zk6Tc7rASfM2balvR9A5df5hG7FMoP0KNTrLpV8InRw=",
+  "Hash": "4SfkOl8TDrbgZCL74WI5BLuK59W5/YWH6kXYphXLM+E=",
   "Source": "VoluminousBookWeb",
   "BasePath": "_content/VoluminousBookWeb",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\VoluminousBook\\VoluminousBookWeb\\wwwroot\\images\\products\\503faea9-baa1-45fc-b33e-af0f690bb309.jpg",
+      "SourceId": "VoluminousBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\VoluminousBook\\VoluminousBookWeb\\wwwroot\\",
+      "BasePath": "_content/VoluminousBookWeb",
+      "RelativePath": "images/products/503faea9-baa1-45fc-b33e-af0f690bb309.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\503faea9-baa1-45fc-b33e-af0f690bb309.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\VoluminousBook\\VoluminousBookWeb\\wwwroot\\js\\product.js",
+      "SourceId": "VoluminousBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\VoluminousBook\\VoluminousBookWeb\\wwwroot\\",
+      "BasePath": "_content/VoluminousBookWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\source\\repos\\VoluminousBook\\VoluminousBookWeb\\wwwroot\\js\\site.js",

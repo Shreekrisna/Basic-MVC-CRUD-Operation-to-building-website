@@ -11,8 +11,8 @@ namespace VoluminousBook.DataAccess.Repository.IRepository
     {
         //Right now assume T : Category 
         //Common methods we want to implement
-        T GetFirstOrDefault(Expression<Func<T, bool>> filter);
-        IEnumerable<T> GetAll();
+        T GetFirstOrDefault(Expression<Func<T, bool>> filter,string? includeProperies = null);
+        IEnumerable<T> GetAll(string? includeProperies = null);
         void Add(T entity);
 
         void Remove(T entity);//we will receive one entity

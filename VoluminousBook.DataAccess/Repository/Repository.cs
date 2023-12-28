@@ -25,16 +25,31 @@ namespace VoluminousBook.DataAccess.Repository
             dbset.Add(entity);
         }
 
-        public IEnumerable<T> GetAll()
+        // includeProp-"Category,CoverType"
+        public IEnumerable<T> GetAll(string? includeProperies = null)
         {
             IQueryable<T> query = dbset;
+            if (includeProperies != null)
+            {
+                foreach (var includeProp in includeProperies.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                query = query.Include(includeProp);
+                }
+            }
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filter)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperies = null)
         {
             IQueryable<T> query = dbset;
             query=query.Where(filter);
+            if (includeProperies != null)
+            {
+                foreach (var includeProp in includeProperies.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+                }
+            }
             return query.FirstOrDefault();
         }
 

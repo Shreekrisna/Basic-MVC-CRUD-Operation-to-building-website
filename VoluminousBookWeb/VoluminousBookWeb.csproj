@@ -20,4 +20,8 @@
     <ProjectReference Include="..\VoluminousBook.DataAccess\VoluminousBook.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>
